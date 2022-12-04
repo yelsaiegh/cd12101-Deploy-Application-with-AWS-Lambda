@@ -140,7 +140,7 @@ export function Todos() {
       }
     }
     foo()
-  }, [])
+  }, [getAccessTokenSilently])
 
   return (
     <div>
